@@ -5,7 +5,7 @@ int main()
     int A, B;
  
     printf("Enter the numbers A, B: ");
-    scanf("%d %d %d", &A, &B);
+    scanf("%d %d", &A, &B);
  
     if (A >= B)
         printf("%d is the largest number.", A);
@@ -13,5 +13,6 @@ int main()
     if (B >= A)
         printf("%d is the largest number.", B);
  
-    return 0;
+ #  // return 0;
 }
+#File modified by manoj2
